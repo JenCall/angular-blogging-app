@@ -12,7 +12,7 @@ background-image: url("https://images.unsplash.com/photo-1634655377962-e6e7b446e
 .content-wrapper {
     display: flex;
     flex-direction: column;
-    width: 70vw;
+    width: 80vw;
     margin-top: 20px;
     padding: 10px;
 }
@@ -37,6 +37,7 @@ background-image: url("https://images.unsplash.com/photo-1634655377962-e6e7b446e
 .title {
     font-size: 22px;
     margin-bottom: 6px;
+    font-weight: bold;
 }
 
 .author {
