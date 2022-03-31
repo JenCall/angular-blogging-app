@@ -29,7 +29,21 @@ background-image: url("https://images.unsplash.com/photo-1634655377962-e6e7b446e
     box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.2);
     margin-top: 30px;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 8px;
     line-height: 1.5rem;
+}
+
+.title {
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+
+.author {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.content {
+    color: rgb(57, 51, 53);
 }
