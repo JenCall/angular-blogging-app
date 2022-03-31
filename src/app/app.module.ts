@@ -8,12 +8,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatButtonModule} from '@angular/material/button';
 import { HomeComponent } from './pages/home/home.component';
+import { CreateBlogComponent } from './pages/create-blog/create-blog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopbarComponent,
-    HomeComponent
+    HomeComponent,
+    CreateBlogComponent
   ],
   imports: [
     BrowserModule,
