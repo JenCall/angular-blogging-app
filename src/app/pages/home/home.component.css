@@ -16,3 +16,8 @@ background-image: url("https://images.unsplash.com/photo-1634655377962-e6e7b446e
     margin-top: 20px;
     padding: 10px;
 }
+
+.create-button {
+    width: fit-content;
+    font-size: 17px;
+}
