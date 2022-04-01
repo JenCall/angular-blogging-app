@@ -11,7 +11,6 @@ import { HomeComponent } from './pages/home/home.component';
 import { CreateBlogComponent } from './pages/create-blog/create-blog.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-import { QuillModule } from 'ngx-quill'
 
 @NgModule({
   declarations: [
@@ -27,7 +26,6 @@ import { QuillModule } from 'ngx-quill'
     MatButtonModule,
     MatFormFieldModule,
     MatInputModule,
-    QuillModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
