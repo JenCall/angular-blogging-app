@@ -27,7 +27,7 @@ import { QuillModule } from 'ngx-quill'
     MatButtonModule,
     MatFormFieldModule,
     MatInputModule,
-    QuillModule.forRoot(),
+    QuillModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
