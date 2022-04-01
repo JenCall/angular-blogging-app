@@ -11,6 +11,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { CreateBlogComponent } from './pages/create-blog/create-blog.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { AngularEditorModule } from '@kolkov/angular-editor';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { MatInputModule } from '@angular/material/input';
     MatButtonModule,
     MatFormFieldModule,
     MatInputModule,
+    AngularEditorModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
