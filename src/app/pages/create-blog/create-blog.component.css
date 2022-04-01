@@ -16,3 +16,10 @@
     margin-top: 20px;
     padding: 10px;
 }
+
+.post-button {
+    width: fit-content;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
