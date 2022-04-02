@@ -52,5 +52,8 @@ export class CreateBlogComponent implements OnInit {
     toolbarPosition: 'top',
 };
   
+  username:string = "";
+  title:string = "";
+  content:string = "";
 
 }
