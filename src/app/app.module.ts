@@ -13,7 +13,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { AngularEditorModule } from '@kolkov/angular-editor';
 import { HttpClientModule } from '@angular/common/http';
-import { FormsModule } from '@angular/forms';@angular/forms;
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
