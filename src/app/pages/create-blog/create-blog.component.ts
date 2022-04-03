@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularEditorConfig } from '@kolkov/angular-editor';
+import { BlogService } from 'src/app/services/blog.service';
 
 @Component({
   selector: 'app-create-blog',
@@ -8,7 +9,7 @@ import { AngularEditorConfig } from '@kolkov/angular-editor';
 })
 export class CreateBlogComponent implements OnInit {
 
-  constructor() { }
+  constructor(public blogService:BlogService) { }
 
   ngOnInit(): void {}
 
@@ -55,5 +56,20 @@ export class CreateBlogComponent implements OnInit {
   username:string = "";
   title:string = "";
   content:string = "";
+
+  post(){
+    let obj={
+      author: this.username,
+      title: this.title,
+      content: this.content,
+      comments:[]
+    }
+    this.blogService.postBlog(obj)
+    .then((res)=>{
+      console.log(res);
+    }).catch((err)=>{
+      console.log(err);
+    });
+  }
 
 }
