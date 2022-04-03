@@ -9,6 +9,6 @@
             <input [(ngModel)]="title" matInput/>
         </mat-form-field>
         <angular-editor [(ngModel)]="content" [config]="editorConfig" ></angular-editor>
-        <button mat-raised-button color="primary" class="post-button">Post</button>
+        <button (click)="post()" mat-raised-button color="primary" class="post-button">Post</button>
     </div>
 </div>
