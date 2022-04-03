@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { AngularEditorConfig } from '@kolkov/angular-editor';
 import { BlogService } from 'src/app/services/blog.service';
 
@@ -9,7 +10,7 @@ import { BlogService } from 'src/app/services/blog.service';
 })
 export class CreateBlogComponent implements OnInit {
 
-  constructor(public blogService:BlogService) { }
+  constructor(public blogService:BlogService, private router:Router) { }
 
   ngOnInit(): void {}
 
@@ -67,6 +68,7 @@ export class CreateBlogComponent implements OnInit {
     this.blogService.postBlog(obj)
     .then((res)=>{
       console.log(res);
+      this.router.navigate(['/home']);
     }).catch((err)=>{
       console.log(err);
     });

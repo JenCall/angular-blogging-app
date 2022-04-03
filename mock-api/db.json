@@ -1,4 +1,25 @@
 {
-    "blogs":[]
-
+  "blogs": [
+    {
+      "author": "",
+      "title": "",
+      "content": "",
+      "comments": [],
+      "id": 1
+    },
+    {
+      "author": "Ashtanga OM",
+      "title": "Ashtanga Yoga",
+      "content": "Hello all.&#160;",
+      "comments": [],
+      "id": 2
+    },
+    {
+      "author": "Ashtanga OM",
+      "title": "Ashtanga Yoga",
+      "content": "Hello Yogis,<div><br></div><div>we are going to explain the basic warmup session</div>",
+      "comments": [],
+      "id": 3
+    }
+  ]
 }
