@@ -14,6 +14,7 @@ import { MatInputModule } from '@angular/material/input';
 import { AngularEditorModule } from '@kolkov/angular-editor';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { ViewBlogComponent } from './pages/view-blog/view-blog.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { FormsModule } from '@angular/forms';
     TopbarComponent,
     HomeComponent,
     CreateBlogComponent,
+    ViewBlogComponent,
   ],
   imports: [
     BrowserModule,
