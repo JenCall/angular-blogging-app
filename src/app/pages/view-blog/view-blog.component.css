@@ -16,3 +16,12 @@
     margin-top: 20px;
     padding: 10px;
 }
+
+.title {
+    font-size: 24px;
+}
+
+.content {
+    margin-top: 26px;
+    font-size: 18px;
+}
