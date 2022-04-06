@@ -1,14 +1,16 @@
 <div class="container">
     <div class="content-wrapper">
         <div class="title">
-            Title
+            {{blogService.blogsData[blogIndex].title}}
         </div>
-        <div class="content">
-            Content
+        
+        <div class="content" [innerHtml]="blogService.blogsData[blogIndex].content">
         </div>
+        
         <div class="author">
-            Written by Charan
+            Written by {{blogService.blogsData[blogIndex].author}}
         </div>
+
         <div class="comments">
             <span class="comment"> <span class="uname">charan:</span> <span class="comment">Comment:</span> </span>
             <span class="comment"> <span class="uname">charan:</span> <span class="comment">Comment:</span> </span>
