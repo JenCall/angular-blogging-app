@@ -12,9 +12,9 @@ export class ViewBlogComponent implements OnInit {
   constructor(public blogService:BlogService, private router:ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.blogId = this.router.snapshot.paramMap.get();
+    this.blogIndex = this.router.snapshot.paramMap.get('blogindex');
   }
 
-  blogId:any;
+  blogIndex:any;
 
 }
