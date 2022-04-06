@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="content-wrapper">
+    <div class="content-wrapper" *ngIf="blogService.blogsData.length != 0">
         <div class="title">
             {{blogService.blogsData[blogIndex].title}}
         </div>
