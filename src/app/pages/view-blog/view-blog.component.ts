@@ -24,5 +24,8 @@ export class ViewBlogComponent implements OnInit {
   }
 
   blogIndex:any;
+  
+  username:string = "";
+  comment:string = "";
 
 }
