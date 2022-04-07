@@ -24,8 +24,11 @@ export class ViewBlogComponent implements OnInit {
   }
 
   blogIndex:any;
-  
+
   username:string = "";
   comment:string = "";
 
+  addComment(){
+    let obj = {username:this.username, comment:this.comment};
+  }
 }
