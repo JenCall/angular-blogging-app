@@ -30,5 +30,6 @@ export class ViewBlogComponent implements OnInit {
 
   addComment(){
     let obj = {username:this.username, comment:this.comment};
+    this.blogService.blogsData[this.blogIndex].comments.push(obj);
   }
 }
