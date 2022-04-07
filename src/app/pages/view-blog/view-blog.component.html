@@ -12,9 +12,7 @@
         </div>
 
         <div class="comments">
-            <span class="comment"> <span class="uname">charan:</span> <span class="comment">Comment:</span> </span>
-            <span class="comment"> <span class="uname">charan:</span> <span class="comment">Comment:</span> </span>
-            <span class="comment"> <span class="uname">charan:</span> <span class="comment">Comment:</span> </span>
+            <span *ngFor="let comment of blogService.blogsData[blogIndex].comments" class="comment"> <span class="uname">{{comment.username}}</span> <span class="comment">{{comment.comment}}</span> </span>
         </div>
         <mat-form-field>
             <mat-label>Username</mat-label>
